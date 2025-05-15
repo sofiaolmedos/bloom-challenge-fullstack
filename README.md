@@ -20,7 +20,7 @@ Debes crear una app que al seleccionar una marca, muestre la sección de **pregu
 
 ## Entregable
 
-1. **Código:** haz un fork, súbelo a tu GitHub y agrega a `@fvr1` y `@imant1`. Envía el link a `jobs@bloomreuse.com` con tu nombre en el asunto.
+1. **Código:** haz un fork, súbelo a tu GitHub y agrega a `@fvr1` y `@imant1`. Envía el link a `devs@bloomreuse.com` con tu nombre en el asunto.
 
 2. **Video (máx. 4 min):** explica tu solución y reflexiona sobre:
 
