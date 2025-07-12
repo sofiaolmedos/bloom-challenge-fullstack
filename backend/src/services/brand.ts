@@ -25,7 +25,16 @@ const BrandService = {
   list(): Promise<Brand[]> {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
-        resolve(brands as Brand[]);
+        const brandsWithSettings: Brand[] = brands.map((brand) => {
+          const brandSetting = brandSettings.find(
+            (setting) => setting.brandId === brand.id
+          );
+          return {
+            ...brand,
+            settings: brandSetting,
+          };
+        });
+        resolve(brandsWithSettings);
       }, 1000);
     });
   },
